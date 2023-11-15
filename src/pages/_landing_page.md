@@ -1,4 +1,4 @@
-````markdown 
+````markdown
 ++{card style="background: url('/img/dev-docs-assets/ClippedHeroBg.png') no-repeat center center / cover;" class="dev-docs-landing"}++
 
 # Launch your Documents
@@ -6,7 +6,10 @@
 
 ## ++{style=" "} We are a documentation platform that helps developers generate, query, and search documentation using AI.
 
-++{card style=" white-space: normal; padding: 0px !important; padding-top: 2rem !important; width: 62.125rem; height: 7.625rem; display: inline-flex; flex-direction: column; align-items: flex-start; gap: 2.1875rem;" class="draggable-logo-grid integration-grid"}++
+
+
+++{card style=" white-space: normal; padding: 0px !important; padding-top: 2rem !important; width: 62.125rem; height: 7.625rem; display: flex; flex-direction: grid; align-items: flex-start; gap: 2.1875rem;" class="draggable-logo-grid integration-grid"}++
+
 
 ## Integrates with the tools you love
 
@@ -221,12 +224,12 @@ All documentation from Dev-Docs is markdown first, which lives with your codebas
 ++{card style="" class="image-container test draggable-logo-grid"}++
 
 ++{card class="general-card"}++
-# Contact Us, 
+# Contact Us,
 # Let’s Collaborate
 --{card}--
 
 ++{card class="general-card"}++
-[Request a Demo](/docs)++{style="null;" class="btn-grad contact-btn"}
+[Request a Demo](https://forms.gle/as99Ejpfian65qVe9)++{style="null;" class="btn-grad contact-btn"}
 --{card}--
 
 --{card}--
@@ -244,4 +247,6 @@ All documentation from Dev-Docs is markdown first, which lives with your codebas
 
 
  ````
+
+
  <Parser />

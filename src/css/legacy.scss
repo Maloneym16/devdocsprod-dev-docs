@@ -1,7 +1,7 @@
 p {
     margin: 0px !important;
   }
-  
+
   .code-card {
     p {
       display: none !important;
@@ -12,7 +12,7 @@ p {
       }
     }
   }
-  
+
   // .draggable-grid {
   //   display: flex !important;
   //   flex-wrap: wrap !important;
@@ -24,24 +24,24 @@ p {
   //   p {
   //     display: none !important;
   //   }
-  
+
   //   .node-ResizableImage {
   //     display: flex;
   //     width: fit-content;
   //     flex: 1 1 10%;
   //     min-height: 100%;
-  
+
   //     .react-component {
   //       width: 100% !important;
   //       height: 100% !important;
-  
+
   //       img {
   //         width: 100% !important;
   //         height: 100% !important;
   //       }
   //     }
   //   }
-  
+
   //   .content {
   //     display: inherit;
   //     flex-wrap: inherit;
@@ -49,80 +49,15 @@ p {
   //     gap: inherit;
   //     justify-content: inherit;
   //   }
-  
+
   //   .node-draggableItem {
   //     flex: 1 1 calc(25% - 1em) !important;
   //   }
-  
+
   //   .image-card {
   //     flex: 1 1 calc(25% - 1em) !important;
   //   }
-  
-  //   .draggable-item {
-  //     flex-direction: column;
-  //     //border: 1px solid #CAD0D2;
-  //     flex: 0 1 calc(20% - 1em);
-  //     > div {
-  //       height: 100% !important;
-  //     }
-  //     > .content div:first-child {
-  //       height: 100% !important;
-  //     }
-  //     pre {
-  //       height: 100% !important;
-  //     }
-  //     p {
-  //       display: block !important;
-  //     }
-  //   }
-  // }
-  
-  // .draggable-logo-grid {
-  //   display: flex !important;
-  //   flex-wrap: wrap !important;
-  
-  
-  //   justify-content: center;
-  //   flex-direction: row !important;
-  //   gap: 2em; /* space between cards */
-  //   p {
-  //     display: none !important;
-  //   }
-  
-  //   .node-ResizableImage {
-  //     display: flex;
-  //     width: fit-content;
-  //     flex: 0 0 5%;
-  //     // min-height: 100%;
-  //     // min-height: 100%;
-  
-  //     .react-component {
-  //       width: 100% !important;
-  //       height: 100% !important;
-  
-  //       img {
-  //         width: 100% !important;
-  //         height: 100% !important;
-  //       }
-  //     }
-  //   }
-  
-  //   .content {
-  //     display: inherit;
-  //     flex-wrap: inherit;
-  //     flex-direction: inherit;
-  //     gap: inherit;
-  //     justify-content: inherit;
-  //   }
-  
-  //   .node-draggableItem {
-  //     flex: 1 1 calc(25% - 1em) !important;
-  //   }
-  
-  //   .image-card {
-  //     flex: 1 1 calc(25% - 1em) !important;
-  //   }
-  
+
   //   .draggable-item {
   //     flex-direction: column;
   //     //border: 1px solid #CAD0D2;
@@ -142,13 +77,78 @@ p {
   //   }
   // }
 
-  
+  // .draggable-logo-grid {
+  //   display: flex !important;
+  //   flex-wrap: wrap !important;
+
+
+  //   justify-content: center;
+  //   flex-direction: row !important;
+  //   gap: 2em; /* space between cards */
+  //   p {
+  //     display: none !important;
+  //   }
+
+  //   .node-ResizableImage {
+  //     display: flex;
+  //     width: fit-content;
+  //     flex: 0 0 5%;
+  //     // min-height: 100%;
+  //     // min-height: 100%;
+
+  //     .react-component {
+  //       width: 100% !important;
+  //       height: 100% !important;
+
+  //       img {
+  //         width: 100% !important;
+  //         height: 100% !important;
+  //       }
+  //     }
+  //   }
+
+  //   .content {
+  //     display: inherit;
+  //     flex-wrap: inherit;
+  //     flex-direction: inherit;
+  //     gap: inherit;
+  //     justify-content: inherit;
+  //   }
+
+  //   .node-draggableItem {
+  //     flex: 1 1 calc(25% - 1em) !important;
+  //   }
+
+  //   .image-card {
+  //     flex: 1 1 calc(25% - 1em) !important;
+  //   }
+
+  //   .draggable-item {
+  //     flex-direction: column;
+  //     //border: 1px solid #CAD0D2;
+  //     flex: 0 1 calc(20% - 1em);
+  //     > div {
+  //       height: 100% !important;
+  //     }
+  //     > .content div:first-child {
+  //       height: 100% !important;
+  //     }
+  //     pre {
+  //       height: 100% !important;
+  //     }
+  //     p {
+  //       display: block !important;
+  //     }
+  //   }
+  // }
+
+
   .cta {
     display: block;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
-  
+
     > h1,
     h2,
     h3,
@@ -157,7 +157,7 @@ p {
     h6 {
       letter-spacing: -1.6px;
     }
-  
+
     .content {
       height: 100%;
       display: flex;
@@ -167,7 +167,7 @@ p {
       backdrop-filter: blur(5px);
     }
   }
-  
+
   .radial-card-content {
     display: flex;
     flex-direction: column;
@@ -184,17 +184,17 @@ p {
     background-position: 50% 50%;
     background-size: 1.1rem 1.1rem;
     padding: 0rem !important;
-  
+
     border-radius: 1.25rem;
     .node-ResizableImage {
       width: fit-content;
       flex: 0 0 20%;
       min-height: 0;
-  
+
       .react-component {
         width: 100% !important;
         height: 100% !important;
-  
+
         img {
           width: 100% !important;
           height: 100% !important;
@@ -213,52 +213,52 @@ p {
       justify-content: flex-start !important;
     }
   }
-  
+
   .inside-magic {
     background: var(--color-2);
     min-height: 100%;
     margin-top: 0px;
   }
-  
+
   .inside-magic p {
     display: block !important;
   }
-  
+
   .inside-magic br {
     display: block !important;
   }
-  
+
   .magic-card {
-  
-  
-  
+
+
+
     border-radius: 0.5rem;
     z-index: 1;
     position: relative;
     padding-top: 0 !important;
-  
+
     .draggable-image-item {
       display: flex;
       width: fit-content;
       flex: 1 1 10%;
       min-height: 100%;
-  
-  
+
+
         width: 100% !important;
         height: 100% !important;
-  
+
         img {
           width: 100% !important;
           height: 100% !important;
         }
-      
+
     }
-  
+
     // div {
     //   height: 100% !important;
     // }
   }
-  
+
   .magic-image-card {
     @extend .magic-card;
     padding-top: 1em !important;
@@ -267,29 +267,29 @@ p {
     .img {
       flex: 1 1 10px;
     }
-  
+
     // div {
     //   height: 100% !important;
     // }
   }
-  
-  
-  
-  
-  
+
+
+
+
+
   .magic-card p {
     display: none;
   }
-  
+
   .magic-card br {
     display: none;
   }
-  
+
   .magic-card:hover {
     color: rgb(88, 199, 250);
     transition: color 1s;
   }
-  
+
   .magic-card::before,
   .magic-card::after {
     content: "";
@@ -307,17 +307,17 @@ p {
     border-radius: inherit;
     animation: rotation 10s linear infinite;
   }
-  
+
   .magic-card::after {
     filter: blur(3.5rem);
   }
-  
+
   @property --gradient-angle {
     syntax: "<angle>";
     initial-value: 0deg;
     inherits: false;
   }
-  
+
   .general-card {
     background-color: rgba(255, 255, 255, 0.015);
     border-color: rgba(255, 255, 255, 0.1);
@@ -330,12 +330,12 @@ p {
     transition: box-shadow 0.25s;
     height: 100%;
   }
-  
+
   .card-one {
     border-radius: 10px;
     border: 2px solid darken($color-1, 10%);
   }
-  
+
   .glass-card-one {
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -343,12 +343,12 @@ p {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
-  
+
   .card-two {
     border-radius: 10px;
     border: 2px solid darken($color-2, 10%);
   }
-  
+
   .glass-card-two {
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -356,12 +356,12 @@ p {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
-  
+
   .card-three {
     border-radius: 10px;
     border: 2px solid darken($color-3, 10%);
   }
-  
+
   .glass-card-three {
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -369,12 +369,12 @@ p {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
-  
+
   .card-four {
     border-radius: 10px;
     border: 2px solid darken($color-4, 10%);
   }
-  
+
   @keyframes rotation {
     0% {
       --gradient-angle: 0deg;
@@ -383,7 +383,7 @@ p {
       --gradient-angle: 360deg;
     }
   }
-  
+
   .button {
     box-sizing: border-box;
     box-shadow: none;
@@ -402,9 +402,9 @@ p {
     + br {
       display: none; // or any other styles you want to apply
     }
-  
+
   }
-  
+
   .border-button {
     box-sizing: border-box;
     box-shadow: none;
@@ -421,15 +421,15 @@ p {
     background-clip: text;
     color: transparent;
   }
-  
+
   .border-button {
     // Your styles here...
-  
+
     + br {
       display: none; // or any other styles you want to apply
     }
   }
-  
+
   .gradient-button {
     box-sizing: border-box;
     box-shadow: none;
@@ -447,7 +447,7 @@ p {
       display: none; // or any other styles you want to apply
     }
   }
-  
+
   .gradient-blur-button {
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
     margin: 10px;
@@ -456,17 +456,17 @@ p {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
     + br {
       display: none; // or any other styles you want to apply
     }
-    
+
   }
-  
-           
+
+
   .btn-grad {
     background-image: linear-gradient(to right, #3A1C71 0%, #D76D77  51%, #3A1C71  100%);
     margin: 10px;
@@ -474,29 +474,29 @@ p {
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     + br {
       display: none; // or any other styles you want to apply
     }
   }
-  
+
   .btn-grad:hover {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
   }
-  
-  
+
+
   @media (max-width: 768px) {
     .border-button {
       display: flex;
       max-width: 100%;
     }
-  
-  
 
-  
+
+
+
     .cta {
       display: block;
       justify-content: center;
@@ -522,19 +522,19 @@ p {
         flex: 0 0 calc(100% - 1em) !important; // Adjust width to 100% on small devices
       }
     }
-  
+
     .draggable-grid {
       .draggable-item {
         flex-direction: column;
         flex: 0 1 calc(100% - 1em); // Adjust width to 100% on small devices
       }
     }
-  
+
     .extend-width-full-page {
-  
+
       display: flex;
     }
-  
+
     .radial-card-content {
       .content div:first-child {
         height: fit-content !important; // Adjust height for small devices
@@ -543,9 +543,9 @@ p {
         flex-direction: column !important;
       }
     }
-  
-  
-  
+
+
+
     // .draggable-logo-grid .content {
     //   display: flex !important;
     //   flex-flow: inherit;
@@ -556,52 +556,52 @@ p {
     //   align-items: center;
     // }
   }
-  
+
   @media (max-width: 1024px) {
     .draggable-grid {
       .draggable-item {
         flex: 0 1 calc(50% - 1em); // Adjust width to 50% on medium devices
       }
     }
-  
+
     .radial-card-content {
       .content div:first-child {
         height: 450px; // Adjust height for medium devices
       }
     }
-  
-   
+
+
   }
-  
+
   #__docusaurus {
     max-width: 100vw !important;
     overflow-x: hidden;
   }
-  
+
   .ProseMirror {
     > * + * {
       margin-top: 0.75em;
     }
-  
+
     pre {
       background: #0d0d0d;
       border-radius: 0.5rem;
       color: #fff;
       font-family: "JetBrainsMono", monospace;
       padding: 0.75rem 1rem;
-  
+
       code {
         background: none;
         color: inherit;
         font-size: 0.8rem;
         padding: 0;
       }
-  
+
       .hljs-comment,
       .hljs-quote {
         color: #616161;
       }
-  
+
       .hljs-variable,
       .hljs-template-variable,
       .hljs-attribute,
@@ -614,7 +614,7 @@ p {
       .hljs-selector-class {
         color: #f98181;
       }
-  
+
       .hljs-number,
       .hljs-meta,
       .hljs-built_in,
@@ -624,33 +624,33 @@ p {
       .hljs-params {
         color: #fbbc88;
       }
-  
+
       .hljs-string,
       .hljs-symbol,
       .hljs-bullet {
         color: #b9f18d;
       }
-  
+
       .hljs-title,
       .hljs-section {
         color: #faf594;
       }
-  
+
       .hljs-keyword,
       .hljs-selector-tag {
         color: #70cff8;
       }
-  
+
       .hljs-emphasis {
         font-style: italic;
       }
-  
+
       .hljs-strong {
         font-weight: 700;
       }
     }
   }
-  
+
   .callout {
     display: flex;
     align-items: center;
@@ -660,22 +660,22 @@ p {
       flex-direction: column;
     }
   }
-  
+
   // table {
   //   /* Add a semi-transparent background */
   //   // background: rgba(255, 255, 255, 0.25);
-  
+
   //   /* Create a border and border radius */
   //   border: 1px solid rgba(255, 255, 255, 0.18);
   //   border-radius: 10px;
   //   background: none !important;
   //   /* Create the blur (this is the glass effect) */
   //   // backdrop-filter: blur(4px);
-  
+
   //   /* Just to center the table on the page */
   //   margin: auto;
   // }
-  
+
   th,
   td {
     /* Add padding to cells */
@@ -684,22 +684,22 @@ p {
     /* Create a semi-transparent border for cells */
     border: none !important;
   }
-  
+
   tr {
     background-color: none !important;
     background: none !important;
   }
-  
+
   th {
     /* Add a background color to header cells */
     background-color: transparent !important;
   }
-  
+
   .selectedCell {
     background-color: transparent !important;
     background: none !important;
   }
-  
+
   .gradient-hover-card-one {
     background-color: rgba(255, 255, 255, 0.015);
     border-color: rgba(255, 255, 255, 0.1);
@@ -714,21 +714,21 @@ p {
     min-height: 100%;
     transition: box-shadow 0.25s;
   }
-  
+
   .gradient-hover-card-one::before {
     transition: opacity 0.5s;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-  
+
     width: 20%;
     height: 20%;
     background: radial-gradient(circle at top right, $color-1, transparent);
     filter: blur(110px);
     z-index: 2;
   }
-  
+
   .gradient-hover-card-one:hover::before {
     top: 0;
     right: 0;
@@ -738,25 +738,25 @@ p {
     opacity: 1;
     animation: rotate 15s linear infinite;
   }
-  
+
   .gradient-hover-card-two {
     @extend .gradient-hover-card-one;
   }
-  
+
   .gradient-hover-card-two:before {
     transition: opacity 0.5s;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-  
+
     width: 20%;
     height: 20%;
     background: radial-gradient(circle at top right, $color-2, transparent);
     filter: blur(110px);
     z-index: 2;
   }
-  
+
   .gradient-hover-card-two:hover::before {
     top: 0;
     right: 0;
@@ -766,25 +766,25 @@ p {
     opacity: 1;
     animation: rotate 15s linear infinite;
   }
-  
+
   .gradient-hover-card-three {
     @extend .gradient-hover-card-one;
   }
-  
+
   .gradient-hover-card-three:before {
     transition: opacity 0.5s;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-  
+
     width: 20%;
     height: 20%;
     background: radial-gradient(circle at top right, $color-3, transparent);
     filter: blur(110px);
     z-index: 2;
   }
-  
+
   .gradient-hover-card-three:hover::before {
     top: 0;
     right: 0;
@@ -794,25 +794,25 @@ p {
     opacity: 1;
     animation: rotate 15s linear infinite;
   }
-  
+
   .gradient-hover-card-four {
     @extend .gradient-hover-card-one;
   }
-  
+
   .gradient-hover-card-four:before {
     transition: opacity 0.5s;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-  
+
     width: 20%;
     height: 20%;
     background: radial-gradient(circle at top right, $color-4, transparent);
     filter: blur(110px);
     z-index: 2;
   }
-  
+
   .gradient-hover-card-four:hover::before {
     top: 0;
     right: 0;
@@ -822,25 +822,25 @@ p {
     opacity: 1;
     animation: rotate 15s linear infinite;
   }
-  
+
   .gradient-hover-card-five {
     @extend .gradient-hover-card-one;
   }
-  
+
   .gradient-hover-card-five:before {
     transition: opacity 0.5s;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-  
+
     width: 20%;
     height: 20%;
     background: radial-gradient(circle at top right, $color-5, transparent);
     filter: blur(110px);
     z-index: 2;
   }
-  
+
   .gradient-hover-card-five:hover::before {
     top: 0;
     right: 0;
@@ -850,34 +850,34 @@ p {
     opacity: 1;
     animation: rotate 15s linear infinite;
   }
-  
+
   .flex-img {
-    padding: 10px; 
+    padding: 10px;
     background-color: blue;
     height: 50px !important;
-    
+
     img {
       background-color: blue;
       height: 50px !important;
     }
   }
-  
+
   .extend-width-full-page {
-    width: 100vw !important;  
+    width: 100vw !important;
   }
-  
+
   .extend-height-full-page {
     height: 100vw;
   }
-  
+
   .extend-half-page {
     .node-ResizableImage {
       height: auto;
       width: auto;
     }
   }
-  
-  
+
+
   @keyframes rotate {
     0% {
       transform: rotate(0deg);
@@ -886,4 +886,3 @@ p {
       transform: rotate(-360deg);
     }
   }
-  

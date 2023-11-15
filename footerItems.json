@@ -39,13 +39,8 @@
         {
             "items": [
                 {
-                    "label": "Blog",
-                    "to": "/blog",
-                    "prependBaseUrlToHref": true
-                },
-                {
                     "label": "GitHub",
-                    "href": "https://github.com/facebook/docusaurus",
+                    "href": "https://github.com/team-dev-docs/devdocsprod-dev-docs",
                     "prependBaseUrlToHref": false
                 }
             ],

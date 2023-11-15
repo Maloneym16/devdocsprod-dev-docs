@@ -110,7 +110,7 @@ p {
   .content {
     display: inherit;
     flex-wrap: inherit;
-    flex-direction: inherit;
+    flex-direction: flex;
     gap: inherit;
     justify-content: inherit;
   }
@@ -525,6 +525,66 @@ button:after {
 }
 
 @media (max-width: 1024px) {
+  .border-button {
+    display: flex;
+    max-width: 100%;
+  }
+  .background-landing {
+    height: 100ch;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    > h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      padding-left: 0em;
+      padding-right: 0em;
+      letter-spacing: -1.6px;
+    }
+    .content {
+      height: 100%;
+      display: flex !important;
+      font-size: 5px;
+      flex-direction: column !important;
+      gap: 10em;
+      word-wrap: break-word;
+      flex: 0 0 calc(100% - 1em) !important; // Adjust width to 100% on small devices
+    }
+  }
+  .draggable-grid {
+    .draggable-item {
+      flex-direction: column;
+      flex: 0 1 calc(100% - 1em); // Adjust width to 100% on small devices
+    }
+  }
+
+  .radial-card-content {
+    .content div:first-child {
+      height: fit-content !important; // Adjust height for small devices
+      display: flex;
+      gap: 1em !important;
+      flex-direction: column !important;
+    }
+  }
+
+  .magic-card {
+    height: 50vh; // Adjust height for small devices
+  }
+
+  .draggable-logo-grid .content {
+    display: flex !important;
+    flex-flow: inherit;
+    gap: inherit;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
   .draggable-grid {
     .draggable-item {
       flex: 0 1 calc(50% - 1em); // Adjust width to 50% on medium devices
@@ -540,7 +600,7 @@ button:after {
   .magic-card {
     height: 55vh; // Adjust height for medium devices
   }
-}
+
 
 #__docusaurus {
   max-width: 100vw !important;
@@ -819,6 +879,7 @@ th {
   opacity: 1;
   animation: rotate 15s linear infinite;
 }
+
 
 @keyframes rotate {
   0% {

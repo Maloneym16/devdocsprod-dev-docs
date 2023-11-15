@@ -54,3 +54,22 @@
   line-height: 1.3375rem; /* 133.75% */
   letter-spacing: -0.005rem;
 }
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footerCol {
+  flex: 1;
+  min-width: 200px; /* adjust as needed */
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+  }
+  .footerCol {
+    flex-basis: 100%;
+  }
+}
